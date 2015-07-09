@@ -3,3 +3,4 @@ gradle/
 servletDemo.iml
 servletDemo.ipr
 servletDemo.iws
+build/
