@@ -4,13 +4,32 @@
          version="3.0">
 
         <servlet>
-        <servlet-name>Default</servlet-name>
-        <servlet-class>Default</servlet-class>
+        <servlet-name>com.liul85.tw.Default</servlet-name>
+        <servlet-class>com.liul85.tw.Default</servlet-class>
         </servlet>
 
         <servlet-mapping>
-        <servlet-name>Default</servlet-name>
-        <url-pattern>/</url-pattern>
+        <servlet-name>com.liul85.tw.Default</servlet-name>
+        <url-pattern>/index</url-pattern>
         </servlet-mapping>
 
+        <servlet>
+            <servlet-name>index</servlet-name>
+            <servlet-class>com.liul85.tw.demo.Index</servlet-class>
+        </servlet>
+
+        <servlet-mapping>
+            <servlet-name>index</servlet-name>
+            <url-pattern>/index</url-pattern>
+        </servlet-mapping>
+
+        <servlet>
+            <servlet-name>signin</servlet-name>
+            <servlet-class>com.liul85.tw.demo.Signin</servlet-class>
+        </servlet>
+
+        <servlet-mapping>
+            <servlet-name>signin</servlet-name>
+            <url-pattern>/signin</url-pattern>
+        </servlet-mapping>
 </web-app>

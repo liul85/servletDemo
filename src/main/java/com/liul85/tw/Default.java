@@ -1,4 +1,4 @@
-/**
+package com.liul85.tw; /**
  * Created by liangliu on 7/9/15.
  */
 
@@ -15,7 +15,7 @@ public class Default extends HttpServlet {
         PrintWriter out = resp.getWriter();
         out.println("<!DOCTYPE HTML>");
         out.println("<html>");
-        out.println("<head><title>Default Request Page</title></head>");
+        out.println("<head><title>com.liul85.tw.Default Request Page</title></head>");
         out.println("<body>");
         out.println("<h1>This is a default request page.</h1>");
         out.println("</body>");
